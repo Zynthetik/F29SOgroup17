@@ -41,7 +41,7 @@
 }
 #loginbutton:hover, #createaccountbutton:hover {
     background-color: grey;
-    color: yellow;
+    color: #ffff98;
 }
 #body {
     background-color: white;

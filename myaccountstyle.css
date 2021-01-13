@@ -45,7 +45,7 @@ li button {
 }
 #feed:hover, #recommended:hover, #search:hover, #channels:hover, #challenges:hover, #myaccount:hover {
     background-color: grey;
-    color: yellow;
+    color: #ffff98;
 }
 #body {
     background-color: white;
