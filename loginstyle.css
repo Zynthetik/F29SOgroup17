@@ -1,14 +1,9 @@
 #namebanner {
     position: fixed;
+    height: 10%;
+    width: 20%;
     left: 0%;
-    top: -27px;
-    background-color: seagreen;
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    text-align: center;
+    top: 0%;
 }
 
 #loginbutton, #createaccountbutton {
@@ -19,15 +14,17 @@
 }
 #loginbutton {
     position: fixed;
-    top: 45px;
-    left: 0%;
+    top: 0px;
+    left: 20%;
+    height: 10%;
     border: whitesmoke;
     background-color: whitesmoke;
 }
 #createaccountbutton {
     position: fixed;
-    top:45px;
-    left: 50%;
+    top: 0px;
+    left: 60%;
+    height: 10%;
     border: lightgray;
     background-color: lightgray;
 }
@@ -76,7 +73,7 @@
     top: 260px;
     left: 25%;
     text-align: center;
-    background-color: seagreen;
+    background-color: #ccff98;
     border: 3px solid lightgray;
     color: white;
 }

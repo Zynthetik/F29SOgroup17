@@ -1,22 +1,9 @@
 #namebanner {
     position: fixed;
-    left: 0%;
-    top: -27px;
-    background-color: seagreen;
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    text-align: center;
-}
-#logobackground {
-    background-color: black;
     height: 10%;
-    width: 100%;
+    width: 20%;
+    left: 0%;
     top: 0%;
-    position: fixed;
-
 }
 
 #loginbutton, #createaccountbutton {
@@ -140,7 +127,7 @@
     top: 620px;
     left: 25%;
     text-align: center;
-    background-color: seagreen;
+    background-color: #ccff98;
     border: 3px solid lightgray;
     color: white;
 }
@@ -167,7 +154,7 @@
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-color: seagreen;
+    background-color: #ccff98;
     border: 2px solid black;
 }
 #inputbutton:hover {
