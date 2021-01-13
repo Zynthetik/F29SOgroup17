@@ -57,12 +57,13 @@ li button {
     left: 77%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: seagreen;
+    color: black;
+    background-color: #ccff98;
     border: 2px solid black;
 }
 #newchallenge:hover {
     background-color: grey;
+    color: #ccff98;
 }
 
 #searchinput {
@@ -82,12 +83,13 @@ li button {
     right: 5%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
-    background-color: seagreen;
+    color: black;
+    background-color: #ccff98;
     border: 2px solid black;
 }
 #inputbutton:hover {
     background-color: grey;
+    color: #ccff98;
 }
 #searchresult {
     position: fixed;
