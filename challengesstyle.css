@@ -69,8 +69,8 @@ li button {
 #searchinput {
     position: fixed;
     top: 1%;
-    width: 50%;
-    right: 30%;
+    width: 60%;
+    left: 20%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
@@ -79,8 +79,8 @@ li button {
 #inputbutton {
     position: fixed;
     top: 1%;
-    width: 20%;
-    right: 5%;
+    width: 16%;
+    right: 2%;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: black;
