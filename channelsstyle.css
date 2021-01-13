@@ -1,36 +1,31 @@
 #namebanner {
     position: fixed;
+    height: 10%;
+    width: 20%;
     left: 0%;
-    top: -27px;
-    background-color: slateblue;
-    color: white;
-    width: 100%;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: lighter;
-    text-align: center;
+    top: 0%;
 }
 
 ul {
     position: fixed;
     top: 45px;
-    width: 100%;
+    width: 80%;
+    left: 20%;
     list-style-type: none;
-    left: 0px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: lightgray;
 }
 li {
     float: left;
+    width: 20%;
   }
 li button {
     display: block;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 30px;
-    width: 250px;
+    width: 100%;
     border: lightgray;
 }
 #feed {
@@ -39,11 +34,8 @@ li button {
 #recommended {
     background-color: lightgray;
 }
-#search {
-    background-color: lightgray;
-}
 #channels {
-    background-color: whitesmoke;
+    background-color: white;
 }
 #challenges {
     background-color: lightgray;
@@ -53,10 +45,10 @@ li button {
 }
 #feed:hover, #recommended:hover, #search:hover, #channels:hover, #challenges:hover, #myaccount:hover {
     background-color: grey;
-    color: white;
+    color: yellow;
 }
 #body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 #newchannel {
     position: relative;
@@ -66,9 +58,45 @@ li button {
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-color: slateblue;
+    background-color: seagreen;
     border: 2px solid black;
 }
 #newchannel:hover {
     background-color: grey;
+    color: yellow;
+}
+
+#searchinput {
+    position: fixed;
+    top: 1%;
+    width: 50%;
+    right: 30%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    border: 2px solid black;
+}
+#inputbutton {
+    position: fixed;
+    top: 1%;
+    width: 20%;
+    right: 5%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: seagreen;
+    border: 2px solid black;
+}
+#inputbutton:hover {
+    background-color: grey;
+}
+#searchresult {
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    top: 110px;
+    left: 1%;
+    visibility: visible;
+    white-space: pre-line;
 }

@@ -2,7 +2,7 @@
     position: fixed;
     left: 0%;
     top: -27px;
-    background-color: slateblue;
+    background-color: seagreen;
     color: white;
     width: 100%;
     font-size: 40px;
@@ -36,7 +36,7 @@
     color: white;
 }
 #body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 #emailtext, #email, #passwordtext, #password, #inputbutton {
     font-family: 'Courier New', Courier, monospace;
@@ -76,7 +76,7 @@
     top: 260px;
     left: 25%;
     text-align: center;
-    background-color: slateblue;
+    background-color: seagreen;
     border: 3px solid lightgray;
     color: white;
 }

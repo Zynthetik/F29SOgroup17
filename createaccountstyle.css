@@ -2,13 +2,21 @@
     position: fixed;
     left: 0%;
     top: -27px;
-    background-color: slateblue;
+    background-color: seagreen;
     color: white;
     width: 100%;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     text-align: center;
+}
+#logobackground {
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    top: 0%;
+    position: fixed;
+
 }
 
 #loginbutton, #createaccountbutton {
@@ -29,14 +37,14 @@
     top:45px;
     left: 50%;
     border: whitesmoke;
-    background-color: whitesmoke;
+    background-color: white;
 }
 #loginbutton:hover, #createaccountbutton:hover {
     background-color: grey;
-    color: white;
+    color: yellow;
 }
 #body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 #emailtext, #email, #usernametext, #username, 
@@ -132,11 +140,46 @@
     top: 620px;
     left: 25%;
     text-align: center;
-    background-color: slateblue;
+    background-color: seagreen;
     border: 3px solid lightgray;
     color: white;
 }
 #inputbutton:hover {
     background-color: gray;
     font-weight: bolder;
+}
+
+#searchinput {
+    position: fixed;
+    top: 1%;
+    width: 50%;
+    right: 30%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    border: 2px solid black;
+}
+#inputbutton {
+    position: fixed;
+    top: 1%;
+    width: 20%;
+    right: 5%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: seagreen;
+    border: 2px solid black;
+}
+#inputbutton:hover {
+    background-color: grey;
+}
+#searchresult {
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    top: 110px;
+    left: 1%;
+    visibility: visible;
+    white-space: pre-line;
 }
